@@ -7,16 +7,19 @@ pygmentsstyle = "solarized-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-summaryLength = 20
+summaryLength = 30
+
+[markup.goldmark.renderer]
+	unsafe= true
 
 [params]
-	subtitle = "Blog and Personal website"
+	subtitle = ""
 	disableDisqusTypes = ["page"]
 	featherIconsCDN = true
 	mode = "light"
 	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
 	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
-	# customJS = ["https://code.jquery.com/jquery-3.4.1.js", "js/custom1.js"]  # Custom JS scripts.
+	customJS = ["https://code.jquery.com/jquery-3.4.1.js"]  # Custom JS scripts.
 
 [[menu.main]]
 name = "Home"
@@ -24,7 +27,7 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All posts"
+name = "Posts"
 url = "/posts"
 weight = 2
 
@@ -62,6 +65,11 @@ url = "https://instagram.com/adharshkamath"
 name = "Email"
 icon = "mail"
 url = "mailto:adharshkamathr@gmail.com"
+
+[[redirects]]
+	from = "/*"
+	to = "/404/"
+	status = 404
 
 [taxonomies]
    tag = "tags"
