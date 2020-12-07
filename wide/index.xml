@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wides on Adharsh Kamath</title>
+    <link>https://adharshkamath.github.io/wide/</link>
+    <description>Recent content in Wides on Adharsh Kamath</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Dec 2020 01:43:31 +0530</lastBuildDate>
+    
+	<atom:link href="https://adharshkamath.github.io/wide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mathy Compiler Demo</title>
+      <link>https://adharshkamath.github.io/wide/mathy-compiler-demo/</link>
+      <pubDate>Tue, 08 Dec 2020 01:43:31 +0530</pubDate>
+      
+      <guid>https://adharshkamath.github.io/wide/mathy-compiler-demo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

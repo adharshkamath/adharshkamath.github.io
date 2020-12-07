@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Mathy Compiler Demo - Adharsh Kamath</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Mathy Compiler Demo" />
+<meta property="og:description" content="Try out the Mathy Compiler with a web interface! Detailed post coming up soon!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://adharshkamath.github.io/posts/mathy-compiler-demo/" />
+<meta property="article:published_time" content="2020-12-07T06:43:38+00:00" />
+<meta property="article:modified_time" content="2020-12-07T06:43:38+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Mathy Compiler Demo"/>
+<meta name="twitter:description" content="Try out the Mathy Compiler with a web interface! Detailed post coming up soon!"/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://adharshkamath.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://adharshkamath.github.io/css/main.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="https://adharshkamath.github.io/js/main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="https://adharshkamath.github.io/">
+	<h1 class="site-title"><a href="https://adharshkamath.github.io/">Adharsh Kamath</a></h1>
+	<div class="site-description"><h2></h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/adharshkamath" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/adharshkamath" title="Twitter"><i data-feather="twitter"></i></a><a href="https://linkedin.com/in/adharshkamath" title="LinkedIn"><i data-feather="linkedin"></i></a><a href="https://instagram.com/adharshkamath" title="Instagram"><i data-feather="instagram"></i></a><a href="mailto:adharshkamathr@gmail.com" title="Email"><i data-feather="mail"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">Posts</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">Mathy Compiler Demo</h1>
+			<div class="meta">Posted at &mdash; Dec 7, 2020</div>
+			<div class="post-tags">
+				
+					
+						<nav class="nav tags">
+								<ul class="flat">
+									
+									<li><a href="/tags/openmp">OpenMP</a></li>
+									
+									<li><a href="/tags/compiler">Compiler</a></li>
+									
+									<li><a href="/tags/dsl">DSL</a></li>
+									
+								</ul>
+						</nav>
+					
+				
+			</div>
+		</div>
+
+		<div class="markdown">
+			<style>
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1200px;
+}
+.column {
+  float: left;
+  width: 45%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    margin:0 auto;
+    margin-block-end: 5%;
+  }
+}
+</style>
+<div class="row">
+  <div class="column" style="background-color:#aaa;float:left;text-align:center;">
+    <form action="http://127.0.0.1:5000/compile" id="codeForm" method="POST">
+    <textarea name="code" form="searchForm" id="code" onkeyup="textAreaAdjust(this)" style="width:90%;height: 200px;margin:auto;" placeholder="Enter the code here..."></textarea>
+    <br>
+    <input type="submit" value="Compile" style="margin-inline-start:3%;margin-block-end: 1%">
+    </form>
+  </div>
+  <div id="result" class="column" style="background-color:#bbb;float:right">
+    <b> <h3>OpenMP Output:</h3> </b>
+  </div>
+</div>
+<script>
+$( "#codeForm" ).submit(function( event ) {
+  event.preventDefault();
+  var url = document.getElementById("codeForm").getAttribute("action"),
+    term = document.getElementById("code").value.trim();
+    console.log(term);
+  var posting = $.post( url, { code: term } );
+  posting.done(function( data ) {
+    $( "#result" ).empty().append( "<b><h3>OpenMP Output:</h3>" + data + "<b>" );
+  });
+});
+function textAreaAdjust(element) {
+  element.style.height = "1px";
+  element.style.height = (25+element.scrollHeight)+"px";
+}
+</script>
+
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script>feather.replace()</script>
+</body>
+</html>
