@@ -38,7 +38,7 @@ tags: [OpenMP, Compiler, DSL]
 
 <div class="row">
   <div class="column" style="background-color:#aaa;float:left;text-align:center;">
-    <form action="http://127.0.0.1:5000/compile" id="codeForm" method="POST">
+    <form action="https://mathy-compiler.herokuapp.com/compile" id="codeForm" method="POST">
     <textarea name="code" form="searchForm" id="code" onkeyup="textAreaAdjust(this)" style="width:90%;height: 200px;margin:auto;" placeholder="Enter the code here..."></textarea>
     <br>
     <input type="submit" value="Compile" style="margin-inline-start:3%;margin-block-end: 1%">
