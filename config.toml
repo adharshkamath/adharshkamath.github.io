@@ -1,6 +1,6 @@
 baseURL = "https://adharshkamath.github.io/"
 languageCode = "en-us"
-title = "Adharsh Kamath"
+title = "Functional Curiosity"
 paginate = 5
 
 pygmentsstyle = "solarized-dark"
