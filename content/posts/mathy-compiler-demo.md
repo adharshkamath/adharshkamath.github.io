@@ -35,7 +35,12 @@ tags: [OpenMP, Compiler, DSL]
   }
 }
 </style>
-
+<div>
+Useful symbols:
+<table style="margin-bottom:2%;margin-top:1%">
+<tr> <td> &forall; </td>  <td>  &sum; </td>  <td>  &prod; </td>  <td>  |  </td> </tr>
+</table>
+</div>
 <div class="row">
   <div class="column" style="background-color:#aaa;float:left;text-align:center;">
     <form action="https://mathy-compiler.herokuapp.com/compile" id="codeForm" method="POST">
@@ -52,11 +57,13 @@ tags: [OpenMP, Compiler, DSL]
 <script>
 $( "#codeForm" ).submit(function( event ) {
   event.preventDefault();
+  $("#overlay").fadeIn(300);
   var url = document.getElementById("codeForm").getAttribute("action"),
     term = document.getElementById("code").value.trim();
     console.log(term);
   var posting = $.post( url, { code: term } );
   posting.done(function( data ) {
+    $("#overlay").fadeOut(300);
     $( "#result" ).empty().append( "<b><h3>OpenMP Output:</h3>" + data + "<b>" );
   });
 });
