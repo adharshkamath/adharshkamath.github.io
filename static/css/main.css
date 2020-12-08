@@ -390,9 +390,6 @@ table th, table td {
 }
 
 @media (max-width: 767px) {
-    body {
-        padding: 20px;
-    }
 
     h1 {
         font-size: 1.8rem;
@@ -412,6 +409,10 @@ table th, table td {
 
     .container {
         margin-top: 10px;
+    }
+
+    .wrapper {
+        padding: 20px;
     }
 }
 
