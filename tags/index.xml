@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Functional Curiosity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Dec 2020 06:43:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Dec 2020 06:43:38 +0000</lastBuildDate>
     
 	<atom:link href="https://adharshkamath.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Compiler</title>
       <link>https://adharshkamath.github.io/tags/compiler/</link>
-      <pubDate>Mon, 07 Dec 2020 06:43:38 +0000</pubDate>
+      <pubDate>Wed, 09 Dec 2020 06:43:38 +0000</pubDate>
       
       <guid>https://adharshkamath.github.io/tags/compiler/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>DSL</title>
       <link>https://adharshkamath.github.io/tags/dsl/</link>
-      <pubDate>Mon, 07 Dec 2020 06:43:38 +0000</pubDate>
+      <pubDate>Wed, 09 Dec 2020 06:43:38 +0000</pubDate>
       
       <guid>https://adharshkamath.github.io/tags/dsl/</guid>
       <description></description>
@@ -32,9 +32,18 @@
     <item>
       <title>OpenMP</title>
       <link>https://adharshkamath.github.io/tags/openmp/</link>
-      <pubDate>Mon, 07 Dec 2020 06:43:38 +0000</pubDate>
+      <pubDate>Wed, 09 Dec 2020 06:43:38 +0000</pubDate>
       
       <guid>https://adharshkamath.github.io/tags/openmp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming Language</title>
+      <link>https://adharshkamath.github.io/tags/programming-language/</link>
+      <pubDate>Wed, 09 Dec 2020 06:43:38 +0000</pubDate>
+      
+      <guid>https://adharshkamath.github.io/tags/programming-language/</guid>
       <description></description>
     </item>
     

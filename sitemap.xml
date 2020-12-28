@@ -3,42 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://adharshkamath.github.io/wide/mathy-compiler-demo/</loc>
-    <lastmod>2020-12-08T01:43:31+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://adharshkamath.github.io/wide/</loc>
-    <lastmod>2020-12-08T01:43:31+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://adharshkamath.github.io/tags/compiler/</loc>
-    <lastmod>2020-12-07T06:43:38+00:00</lastmod>
+    <lastmod>2020-12-09T06:43:38+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://adharshkamath.github.io/tags/dsl/</loc>
-    <lastmod>2020-12-07T06:43:38+00:00</lastmod>
+    <lastmod>2020-12-09T06:43:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://adharshkamath.github.io/posts/mathy-compiler-demo/</loc>
-    <lastmod>2020-12-07T06:43:38+00:00</lastmod>
+    <loc>https://adharshkamath.github.io/posts/mathy-compiler/</loc>
+    <lastmod>2020-12-09T06:43:38+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://adharshkamath.github.io/tags/openmp/</loc>
-    <lastmod>2020-12-07T06:43:38+00:00</lastmod>
+    <lastmod>2020-12-09T06:43:38+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://adharshkamath.github.io/posts/</loc>
-    <lastmod>2020-12-07T06:43:38+00:00</lastmod>
+    <lastmod>2020-12-09T06:43:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adharshkamath.github.io/tags/programming-language/</loc>
+    <lastmod>2020-12-09T06:43:38+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://adharshkamath.github.io/tags/</loc>
+    <lastmod>2020-12-09T06:43:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adharshkamath.github.io/posts/mathy-compiler-demo/</loc>
     <lastmod>2020-12-07T06:43:38+00:00</lastmod>
   </url>
   

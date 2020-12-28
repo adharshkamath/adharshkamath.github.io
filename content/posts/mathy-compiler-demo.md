@@ -1,11 +1,11 @@
 ---
 title: Mathy Compiler Demo
-description: 'Try out the Mathy Compiler with a web interface! Detailed post coming up soon!'
+description: Try out the Mathy Compiler with a web interface! Detailed post coming up soon!
 date: 2020-12-07T06:43:38.000Z
 tags: [OpenMP, Compiler, DSL]
 ---
 
-<style>
+<style type="text/css">
 * {
   box-sizing: border-box;
 }
@@ -35,6 +35,7 @@ tags: [OpenMP, Compiler, DSL]
   }
 }
 </style>
+
 <div>
 Useful symbols:
 <table style="margin-bottom:2%;margin-top:1%">
@@ -42,19 +43,21 @@ Useful symbols:
 </table>
 </div>
 <div class="row">
-  <div class="column" style="background-color:#aaa;float:left;text-align:center;">
+  <div class="column" style="float:left;text-align:center;">
     <form action="https://mathy-compiler.herokuapp.com/compile" id="codeForm" method="POST">
     <textarea name="code" form="searchForm" id="code" onkeyup="textAreaAdjust(this)" style="width:90%;height: 200px;margin:auto;" placeholder="Enter the code here..."></textarea>
     <br>
     <input type="submit" value="Compile" style="margin-inline-start:3%;margin-block-end: 1%">
     </form>
   </div>
-  <div id="result" class="column" style="background-color:#bbb;float:right">
+  <div id="result" class="column" style="float:right">
     <b> <h3>OpenMP Output:</h3> </b>
   </div>
 </div>
 
-<script>
+### Some Examples:
+
+<script type="text/javascript">
 $( "#codeForm" ).submit(function( event ) {
   event.preventDefault();
   $("#overlay").fadeIn(300);

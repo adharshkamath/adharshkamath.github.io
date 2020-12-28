@@ -2,13 +2,6 @@
 	<nav class="nav">
 		<div>{{ with .Site.Copyright }} {{ . }} | {{ end }} <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
 	</nav>
-	<nav class="nav social">
-		<ul class="flat">
-			{{- range $index, $key := .Site.Params.Social -}}
-			<li style="margin: 10px 5px;"><a href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a> </li>
-			{{- end -}}
-		</ul>
-	</nav>
 </div>
 
 {{ if not .Site.IsServer }}

@@ -16,10 +16,8 @@ summaryLength = 30
 	subtitle = ""
 	disableDisqusTypes = ["page"]
 	featherIconsCDN = true
-	mode = "light"
-	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
-	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
-	customJS = ["https://code.jquery.com/jquery-3.4.1.js"]  # Custom JS scripts.
+	mode = "auto"
+	customJS = ["https://code.jquery.com/jquery-3.4.1.js"]
 
 [[menu.main]]
 name = "Home"
@@ -60,11 +58,6 @@ url = "https://linkedin.com/in/adharshkamath"
 name = "Instagram"
 icon = "instagram"
 url = "https://instagram.com/adharshkamath"
-
-[[params.social]]
-name = "Email"
-icon = "mail"
-url = "mailto:adharshkamathr@gmail.com"
 
 [[redirects]]
 	from = "/*"
