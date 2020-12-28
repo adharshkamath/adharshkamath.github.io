@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2019-04-19T21:37:58+05:30
+date: 2020-12-05T21:37:58+05:30
 type: "about"
 ---
 
@@ -10,6 +10,6 @@ This is where I occasionally post [articles](/) about Programming Languages, Par
 
 I also maintain a list of [projects](/projects) I've worked on/I'm planning to work on.
 
-[Reach out](mailto:adharshkamathr@gmail.com) to me if you find any errors in my posts, if you wanna discuss my projects or my posts.
+[Reach out](mailto:adharshkamathr@gmail.com) to me if you find any errors in my posts, or if you wanna discuss my projects/posts.
 
 This is me around the internet :
