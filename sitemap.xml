@@ -13,7 +13,7 @@
   </url>
   
   <url>
-    <loc>https://adharshkamath.github.io/posts/mathy-compiler/</loc>
+    <loc>https://adharshkamath.github.io/projects/mathy-compiler/</loc>
     <lastmod>2020-12-09T06:43:38+00:00</lastmod>
   </url>
   
@@ -23,12 +23,12 @@
   </url>
   
   <url>
-    <loc>https://adharshkamath.github.io/posts/</loc>
+    <loc>https://adharshkamath.github.io/tags/programming-language/</loc>
     <lastmod>2020-12-09T06:43:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://adharshkamath.github.io/tags/programming-language/</loc>
+    <loc>https://adharshkamath.github.io/projects/</loc>
     <lastmod>2020-12-09T06:43:38+00:00</lastmod>
   </url>
   
@@ -38,7 +38,12 @@
   </url>
   
   <url>
-    <loc>https://adharshkamath.github.io/posts/mathy-compiler-demo/</loc>
+    <loc>https://adharshkamath.github.io/posts/mathy-compiler/</loc>
+    <lastmod>2020-12-07T06:43:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adharshkamath.github.io/posts/</loc>
     <lastmod>2020-12-07T06:43:38+00:00</lastmod>
   </url>
   
@@ -69,11 +74,6 @@
   
   <url>
     <loc>https://adharshkamath.github.io/tags/graph-theory/</loc>
-    <lastmod>2020-08-09T06:43:38+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://adharshkamath.github.io/projects/</loc>
     <lastmod>2020-08-09T06:43:38+00:00</lastmod>
   </url>
   

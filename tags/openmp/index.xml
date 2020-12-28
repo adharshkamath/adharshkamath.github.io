@@ -13,19 +13,19 @@
     
     <item>
       <title>Mathy Compiler</title>
-      <link>https://adharshkamath.github.io/posts/mathy-compiler/</link>
+      <link>https://adharshkamath.github.io/projects/mathy-compiler/</link>
       <pubDate>Wed, 09 Dec 2020 06:43:38 +0000</pubDate>
       
-      <guid>https://adharshkamath.github.io/posts/mathy-compiler/</guid>
+      <guid>https://adharshkamath.github.io/projects/mathy-compiler/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mathy Compiler Demo</title>
-      <link>https://adharshkamath.github.io/posts/mathy-compiler-demo/</link>
+      <link>https://adharshkamath.github.io/posts/mathy-compiler/</link>
       <pubDate>Mon, 07 Dec 2020 06:43:38 +0000</pubDate>
       
-      <guid>https://adharshkamath.github.io/posts/mathy-compiler-demo/</guid>
+      <guid>https://adharshkamath.github.io/posts/mathy-compiler/</guid>
       <description>* { box-sizing: border-box; } .wrapper { max-width: 1200px; } .column { float: left; width: 45%; padding: 10px; } .row:after { content: &#34;&#34;; display: table; clear: both; } @media screen and (max-width: 600px) { .</description>
     </item>
     

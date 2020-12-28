@@ -6,7 +6,7 @@ type: "about"
 
 Hi there! My name is Adharsh and I'm an undergraduate at [NITK, India](https://nitk.ac.in).
 
-This is where I occasionally post [articles](/) about Programming Languages, Parallel programming and a few other topics.
+This is where I occasionally post [articles](/posts) about Programming Languages, Parallel programming and a few other topics.
 
 I also maintain a list of [projects](/projects) I've worked on/I'm planning to work on.
 

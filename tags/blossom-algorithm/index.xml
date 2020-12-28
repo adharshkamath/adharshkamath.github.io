@@ -17,7 +17,7 @@
       <pubDate>Sun, 09 Aug 2020 06:43:38 +0000</pubDate>
       
       <guid>https://adharshkamath.github.io/projects/edmonds-algorithm/</guid>
-      <description></description>
+      <description>A python implementation of an algorithm to find a maximum matching in a graph</description>
     </item>
     
   </channel>

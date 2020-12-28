@@ -1,6 +1,6 @@
 ---
 title: Mathy Compiler Demo
-description: Try out the Mathy Compiler with a web interface!
+description: 'Try out the Mathy Compiler with a web interface!'
 date: 2020-12-07T06:43:38.000Z
 tags: [OpenMP, Compiler, DSL]
 ---
@@ -35,7 +35,7 @@ tags: [OpenMP, Compiler, DSL]
   }
 }
 </style>
-Refer to the accompanying [post](/posts/mathy-compiler) for an explanation about the syntax and the expected output.
+Read more about the syntax and the expected output of the project [here](/projects/mathy-compiler).
 <div>
 Useful symbols:
 <table style="margin-bottom:2%;margin-top:1%">

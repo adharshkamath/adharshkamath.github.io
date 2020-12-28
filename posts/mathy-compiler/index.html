@@ -2,16 +2,16 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Mathy Compiler - Functional Curiosity</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta property="og:title" content="Mathy Compiler" />
-<meta property="og:description" content="The Mathy Compiler project, supported syntax, and much more!" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Mathy Compiler Demo - Functional Curiosity</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Mathy Compiler Demo" />
+<meta property="og:description" content="Try out the Mathy Compiler with a web interface!" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://adharshkamath.github.io/posts/mathy-compiler/" />
-<meta property="article:published_time" content="2020-12-09T06:43:38+00:00" />
-<meta property="article:modified_time" content="2020-12-09T06:43:38+00:00" />
+<meta property="article:published_time" content="2020-12-07T06:43:38+00:00" />
+<meta property="article:modified_time" content="2020-12-07T06:43:38+00:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Mathy Compiler"/>
-<meta name="twitter:description" content="The Mathy Compiler project, supported syntax, and much more!"/>
+<meta name="twitter:title" content="Mathy Compiler Demo"/>
+<meta name="twitter:description" content="Try out the Mathy Compiler with a web interface!"/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="https://adharshkamath.github.io/css/normalize.css" />
@@ -58,12 +58,99 @@
 
 
 		<div class="post-header">
-			<h1 class="title">Mathy Compiler</h1>
-			<div class="meta">Posted at &mdash; Dec 9, 2020</div>
+			<h1 class="title">Mathy Compiler Demo</h1>
+			<div class="meta">Posted at &mdash; Dec 7, 2020</div>
 		</div>
 
 		<div class="markdown">
-			
+			<style type="text/css">
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1200px;
+}
+.column {
+  float: left;
+  width: 45%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    margin:0 auto;
+    margin-block-end: 5%;
+  }
+}
+</style>
+<p>Read more about the syntax and the expected output of the project <a href="/projects/mathy-compiler">here</a>.</p>
+<div>
+Useful symbols:
+<table style="margin-bottom:2%;margin-top:1%">
+<tr> <td> &forall; </td>  <td>  &sum; </td>  <td>  &prod; </td>  <td>  |  </td> </tr>
+</table>
+</div>
+<div class="row">
+  <div class="column" style="float:left;text-align:center;">
+    <form action="https://mathy-compiler.herokuapp.com/compile" id="codeForm" method="POST">
+    <textarea name="code" form="searchForm" id="code" onkeyup="textAreaAdjust(this)" style="width:90%;height: 200px;margin:auto;" placeholder="Enter the code here..."></textarea>
+    <br>
+    <input type="submit" value="Compile" style="margin-inline-start:3%;margin-block-end: 1%">
+    </form>
+  </div>
+  <div id="result" class="column" style="float:right">
+    <b> <h3>OpenMP output will appear here!</h3> </b>
+  </div>
+</div>
+<h3 id="some-examples">Some Examples:</h3>
+<p>(Paste these in the input box above and get the output)</p>
+<div class="row">
+  <div class="column" style="float:left">
+    <b> <h3>Calculating mean:</h3> </b>
+	<div style="border:medium solid #333333;padding:1%">
+	mean = &sum;(a[i]/100) | 0 <=i< 100
+	</div>
+  </div>
+  <div class="column" style="float:right">
+    <b> <h3>Matrix multiplication:</h3> </b>
+	<div style="border:medium solid #333333;padding:1%">
+	∀(i) | 0 <= i < 600 {<br>
+    &emsp; ∀(j) | 0 <= j <= 800 {<br>
+        &emsp; &emsp; &emsp; c[i][j] = &sum;(a[i][k] * b[k][j]) | 0<= k <=200<br>
+    	&emsp; &emsp; }<br>
+	}<br>
+	</div>
+</div>
+<script type="text/javascript">
+$( "#codeForm" ).submit(function( event ) {
+  event.preventDefault();
+  $("#overlay").fadeIn(300);
+  var url = document.getElementById("codeForm").getAttribute("action"),
+    term = document.getElementById("code").value.trim();
+    console.log(term);
+  var posting = $.post( url, { code: term } );
+  posting.done(function( data ) {
+    $("#overlay").fadeOut(300);
+    $( "#result" ).empty().append( "<b><h3>OpenMP Output:</h3>" + data + "<b>" );
+  });
+});
+function textAreaAdjust(element) {
+  element.style.height = "1px";
+  element.style.height = (25+element.scrollHeight)+"px";
+}
+</script>
+<br>
+
 		</div>
 		<div class="post-tags">
 			<span style="font-size: larger;">Tags:</span>
@@ -77,8 +164,6 @@
 								<li><a href="/tags/compiler">Compiler</a></li>
 								
 								<li><a href="/tags/dsl">DSL</a></li>
-								
-								<li><a href="/tags/programming-language">Programming Language</a></li>
 								
 							</ul>
 					</nav>
