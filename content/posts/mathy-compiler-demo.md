@@ -1,6 +1,6 @@
 ---
 title: Mathy Compiler Demo
-description: Try out the Mathy Compiler with a web interface! Detailed post coming up soon!
+description: Try out the Mathy Compiler with a web interface!
 date: 2020-12-07T06:43:38.000Z
 tags: [OpenMP, Compiler, DSL]
 ---
@@ -35,7 +35,7 @@ tags: [OpenMP, Compiler, DSL]
   }
 }
 </style>
-
+Refer to the accompanying [post](/posts/mathy-compiler) for an explanation about the syntax and the expected output.
 <div>
 Useful symbols:
 <table style="margin-bottom:2%;margin-top:1%">
@@ -51,11 +51,31 @@ Useful symbols:
     </form>
   </div>
   <div id="result" class="column" style="float:right">
-    <b> <h3>OpenMP Output:</h3> </b>
+    <b> <h3>OpenMP output will appear here!</h3> </b>
   </div>
 </div>
 
 ### Some Examples:
+
+(Paste these in the input box above and get the output)
+
+<div class="row">
+  <div class="column" style="float:left">
+    <b> <h3>Calculating mean:</h3> </b>
+	<div style="border:medium solid #333333;padding:1%">
+	mean = &sum;(a[i]/100) | 0 <=i< 100
+	</div>
+  </div>
+  <div class="column" style="float:right">
+    <b> <h3>Matrix multiplication:</h3> </b>
+	<div style="border:medium solid #333333;padding:1%">
+	∀(i) | 0 <= i < 600 {<br>
+    &emsp; ∀(j) | 0 <= j <= 800 {<br>
+        &emsp; &emsp; &emsp; c[i][j] = &sum;(a[i][k] * b[k][j]) | 0<= k <=200<br>
+    	&emsp; &emsp; }<br>
+	}<br>
+	</div>
+</div>
 
 <script type="text/javascript">
 $( "#codeForm" ).submit(function( event ) {
@@ -75,3 +95,5 @@ function textAreaAdjust(element) {
   element.style.height = (25+element.scrollHeight)+"px";
 }
 </script>
+
+<br>

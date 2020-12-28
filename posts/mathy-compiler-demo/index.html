@@ -4,14 +4,14 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Mathy Compiler Demo - Functional Curiosity</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="Mathy Compiler Demo" />
-<meta property="og:description" content="Try out the Mathy Compiler with a web interface! Detailed post coming up soon!" />
+<meta property="og:description" content="Try out the Mathy Compiler with a web interface!" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://adharshkamath.github.io/posts/mathy-compiler-demo/" />
 <meta property="article:published_time" content="2020-12-07T06:43:38+00:00" />
 <meta property="article:modified_time" content="2020-12-07T06:43:38+00:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Mathy Compiler Demo"/>
-<meta name="twitter:description" content="Try out the Mathy Compiler with a web interface! Detailed post coming up soon!"/>
+<meta name="twitter:description" content="Try out the Mathy Compiler with a web interface!"/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="https://adharshkamath.github.io/css/normalize.css" />
@@ -89,6 +89,7 @@
   }
 }
 </style>
+<p>Refer to the accompanying <a href="/posts/mathy-compiler">post</a> for an explanation about the syntax and the expected output.</p>
 <div>
 Useful symbols:
 <table style="margin-bottom:2%;margin-top:1%">
@@ -104,10 +105,28 @@ Useful symbols:
     </form>
   </div>
   <div id="result" class="column" style="float:right">
-    <b> <h3>OpenMP Output:</h3> </b>
+    <b> <h3>OpenMP output will appear here!</h3> </b>
   </div>
 </div>
 <h3 id="some-examples">Some Examples:</h3>
+<p>(Paste these in the input box above and get the output)</p>
+<div class="row">
+  <div class="column" style="float:left">
+    <b> <h3>Calculating mean:</h3> </b>
+	<div style="border:medium solid #333333;padding:1%">
+	mean = &sum;(a[i]/100) | 0 <=i< 100
+	</div>
+  </div>
+  <div class="column" style="float:right">
+    <b> <h3>Matrix multiplication:</h3> </b>
+	<div style="border:medium solid #333333;padding:1%">
+	∀(i) | 0 <= i < 600 {<br>
+    &emsp; ∀(j) | 0 <= j <= 800 {<br>
+        &emsp; &emsp; &emsp; c[i][j] = &sum;(a[i][k] * b[k][j]) | 0<= k <=200<br>
+    	&emsp; &emsp; }<br>
+	}<br>
+	</div>
+</div>
 <script type="text/javascript">
 $( "#codeForm" ).submit(function( event ) {
   event.preventDefault();
@@ -126,6 +145,7 @@ function textAreaAdjust(element) {
   element.style.height = (25+element.scrollHeight)+"px";
 }
 </script>
+<br>
 
 		</div>
 		<div class="post-tags">
@@ -153,6 +173,14 @@ function textAreaAdjust(element) {
 			<span class="spinner"></span>
 		</div>
 	</div>
-	
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script>feather.replace()</script>
 </body>
 </html>
