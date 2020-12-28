@@ -6,17 +6,26 @@
     <description>Recent content in Posts on Functional Curiosity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Dec 2020 06:43:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Dec 2020 06:43:38 +0000</lastBuildDate>
     
 	<atom:link href="https://adharshkamath.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Mathy Compiler Demo</title>
+      <title>Mathy Compiler</title>
       <link>https://adharshkamath.github.io/posts/mathy-compiler/</link>
-      <pubDate>Mon, 07 Dec 2020 06:43:38 +0000</pubDate>
+      <pubDate>Wed, 09 Dec 2020 06:43:38 +0000</pubDate>
       
       <guid>https://adharshkamath.github.io/posts/mathy-compiler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mathy Compiler Demo</title>
+      <link>https://adharshkamath.github.io/posts/mathy-compiler-demo/</link>
+      <pubDate>Mon, 07 Dec 2020 06:43:38 +0000</pubDate>
+      
+      <guid>https://adharshkamath.github.io/posts/mathy-compiler-demo/</guid>
       <description>* { box-sizing: border-box; } .wrapper { max-width: 1200px; } .column { float: left; width: 45%; padding: 10px; } .row:after { content: &#34;&#34;; display: table; clear: both; } @media screen and (max-width: 600px) { .</description>
     </item>
     

@@ -6,19 +6,10 @@
     <description>Recent content in Projects on Functional Curiosity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Dec 2020 06:43:38 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2020 06:43:38 +0000</lastBuildDate>
     
 	<atom:link href="https://adharshkamath.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Mathy Compiler</title>
-      <link>https://adharshkamath.github.io/projects/mathy-compiler/</link>
-      <pubDate>Wed, 09 Dec 2020 06:43:38 +0000</pubDate>
-      
-      <guid>https://adharshkamath.github.io/projects/mathy-compiler/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Edmond&#39;s algorithm</title>
