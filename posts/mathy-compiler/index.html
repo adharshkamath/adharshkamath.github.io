@@ -63,7 +63,37 @@
 		</div>
 
 		<div class="markdown">
-			
+			<p>The code for this project can be found in <a href="https://github.com/adharshkamath/Mathy-Compiler">this</a> GitHub repository.</p>
+<p>You can write four types of statements in this small language.</p>
+<ul>
+<li>
+<p>Assignment statements: This is the usual assignment operation supported in almost all programming languages.
+Example: <br><br></p>
+<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-prolog" data-lang="prolog"><span style="color:#cd5555">a</span> = <span style="color:#b452cd">100</span>
+</code></pre></div></li>
+<li>
+<p>Forall statement: This statement can be used to do an operation on a range of values.
+Example: <br><br></p>
+<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-prolog" data-lang="prolog"><span style="color:#cd5555">∀</span>(<span style="color:#cd5555">i</span>) | <span style="color:#b452cd">0</span><span style="color:#cd5555">&lt;=i&lt;=</span><span style="color:#b452cd">100</span> {
+    <span style="color:#cd5555">a</span>[<span style="color:#cd5555">i</span>] = <span style="color:#cd5555">i</span>
+}
+</code></pre></div>  <br>
+</li>
+<li>
+<p>Sigma statement: This statement can be used to do store the sum of an expression over range of values.
+Example: <br><br></p>
+<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-prolog" data-lang="prolog"><span style="color:#cd5555">mean</span> = <span style="color:#008b45">Σ</span>(<span style="color:#cd5555">a</span>[<span style="color:#cd5555">i</span>]/<span style="color:#b452cd">100</span>) | <span style="color:#b452cd">0</span><span style="color:#cd5555">&lt;=i&lt;=</span><span style="color:#b452cd">100</span>
+</code></pre></div>  <br>
+</li>
+<li>
+<p>Product statement: This statement can be used to do store the product of an expression over range of values.
+Example: <br><br></p>
+<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-prolog" data-lang="prolog"><span style="color:#cd5555">product</span> = <span style="color:#008b45">Π</span>(<span style="color:#cd5555">a</span>[<span style="color:#cd5555">i</span>]) | <span style="color:#b452cd">0</span><span style="color:#cd5555">&lt;=i&lt;=</span><span style="color:#b452cd">100</span>
+</code></pre></div>  <br>
+</li>
+</ul>
+<p>This project was done under the guidance of <a href="https://www.cse.iitm.ac.in/~rupesh/">Dr. Rupesh Nasre</a>.</p>
+
 		</div>
 		<div class="post-tags">
 			<span style="font-size: larger;">Tags:</span>

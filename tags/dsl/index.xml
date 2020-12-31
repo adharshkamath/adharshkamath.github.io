@@ -17,7 +17,9 @@
       <pubDate>Wed, 09 Dec 2020 06:43:38 +0000</pubDate>
       
       <guid>https://adharshkamath.github.io/posts/mathy-compiler/</guid>
-      <description></description>
+      <description>The code for this project can be found in this GitHub repository.
+You can write four types of statements in this small language.
+  Assignment statements: This is the usual assignment operation supported in almost all programming languages.</description>
     </item>
     
     <item>
