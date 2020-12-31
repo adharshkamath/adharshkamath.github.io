@@ -6,7 +6,6 @@ paginate = 5
 pygmentsstyle = "perldoc"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-
 summaryLength = 30
 
 [markup.goldmark.renderer]
@@ -18,6 +17,7 @@ summaryLength = 30
 	featherIconsCDN = true
 	mode = "auto"
 	customJS = ["https://code.jquery.com/jquery-3.4.1.js"]
+	favicon = "favicon.ico"
 
 [[menu.main]]
 name = "Home"
