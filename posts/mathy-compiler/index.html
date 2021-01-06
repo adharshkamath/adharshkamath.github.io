@@ -77,40 +77,40 @@
 <li>
 <p>Assignment statement: This is the usual assignment supported in almost all general programming languages.
 Example: <br><br></p>
-<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-prolog" data-lang="prolog"><span style="color:#cd5555">a</span> = <span style="color:#b452cd">100</span>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-prolog" data-lang="prolog"><span style="color:#a31515">a</span> = 100
 </code></pre></div></li>
 <li>
 <p>Forall statement: This statement can be used to do an operation on a range of values.
 Syntax: <br><br></p>
-<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-prolog" data-lang="prolog"><span style="color:#cd5555">∀</span>(<span style="color:#cd5555">bound</span> <span style="color:#cd5555">variable</span>) | <span style="color:#cd5555">bound</span> {
-    <span style="color:#cd5555">statements</span>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-prolog" data-lang="prolog"><span style="color:#a31515">∀</span>(<span style="color:#a31515">bound</span> <span style="color:#a31515">variable</span>) | <span style="color:#a31515">bound</span> {
+    <span style="color:#a31515">statements</span>
 }
 </code></pre></div>  <br>
 <p>One important detail to keep in mind is the newline after the opening bracket.
 (I had originally planned to enforce indentation and neatness in the syntax which is not completely implemented yet)</p>
   <br>
   Example: <br><br>
-<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-prolog" data-lang="prolog"><span style="color:#cd5555">∀</span>(<span style="color:#cd5555">i</span>) | <span style="color:#b452cd">0</span><span style="color:#cd5555">&lt;=i&lt;=</span><span style="color:#b452cd">100</span> {
-    <span style="color:#cd5555">a</span>[<span style="color:#cd5555">i</span>] = <span style="color:#cd5555">i</span>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-prolog" data-lang="prolog"><span style="color:#a31515">∀</span>(<span style="color:#a31515">i</span>) | 0<span style="color:#a31515">&lt;=i&lt;=</span>100 {
+    <span style="color:#a31515">a</span>[<span style="color:#a31515">i</span>] = <span style="color:#a31515">i</span>
 }
 </code></pre></div>  <br>
 </li>
 <li>
 <p>Sigma statement: This statement can be used to compute and store the sum of an <em>expression</em> over range of values.
 Syntax: <br><br></p>
-<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-prolog" data-lang="prolog"><span style="color:#cd5555">variable</span> = <span style="color:#008b45">Σ</span>(<span style="color:#cd5555">expression</span> <span style="color:#cd5555">involving</span> <span style="color:#cd5555">the</span> <span style="color:#cd5555">bound</span> <span style="color:#cd5555">variable</span>) | <span style="color:#cd5555">bound</span>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-prolog" data-lang="prolog"><span style="color:#a31515">variable</span> = Σ(<span style="color:#a31515">expression</span> <span style="color:#a31515">involving</span> <span style="color:#a31515">the</span> <span style="color:#a31515">bound</span> <span style="color:#a31515">variable</span>) | <span style="color:#a31515">bound</span>
 </code></pre></div>  <br>
   Example: <br><br>
-<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-prolog" data-lang="prolog"><span style="color:#cd5555">mean</span> = <span style="color:#008b45">Σ</span>(<span style="color:#cd5555">a</span>[<span style="color:#cd5555">i</span>]/<span style="color:#b452cd">100</span>) | <span style="color:#b452cd">0</span><span style="color:#cd5555">&lt;=i&lt;=</span><span style="color:#b452cd">100</span>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-prolog" data-lang="prolog"><span style="color:#a31515">mean</span> = Σ(<span style="color:#a31515">a</span>[<span style="color:#a31515">i</span>]/100) | 0<span style="color:#a31515">&lt;=i&lt;=</span>100
 </code></pre></div>  <br>
 </li>
 <li>
 <p>Product statement: This statement can be used to compute and store the product of an <em>expression</em> over range of values.
 Syntax: <br><br></p>
-<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-prolog" data-lang="prolog"><span style="color:#cd5555">variable</span> = <span style="color:#008b45">Π</span>(<span style="color:#cd5555">expression</span> <span style="color:#cd5555">involving</span> <span style="color:#cd5555">the</span> <span style="color:#cd5555">bound</span> <span style="color:#cd5555">variable</span>) | <span style="color:#cd5555">bound</span>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-prolog" data-lang="prolog"><span style="color:#a31515">variable</span> = Π(<span style="color:#a31515">expression</span> <span style="color:#a31515">involving</span> <span style="color:#a31515">the</span> <span style="color:#a31515">bound</span> <span style="color:#a31515">variable</span>) | <span style="color:#a31515">bound</span>
 </code></pre></div>  <br>
   Example: <br><br>
-<div class="highlight"><pre style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-prolog" data-lang="prolog"><span style="color:#cd5555">product</span> = <span style="color:#008b45">Π</span>(<span style="color:#cd5555">a</span>[<span style="color:#cd5555">i</span>]) | <span style="color:#b452cd">0</span><span style="color:#cd5555">&lt;=i&lt;=</span><span style="color:#b452cd">100</span>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-prolog" data-lang="prolog"><span style="color:#a31515">product</span> = Π(<span style="color:#a31515">a</span>[<span style="color:#a31515">i</span>]) | 0<span style="color:#a31515">&lt;=i&lt;=</span>100
 </code></pre></div>  <br>
 </li>
 </ul>
