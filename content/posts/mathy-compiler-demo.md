@@ -66,15 +66,15 @@ Useful symbols:
   <div class="column" style="float:left">
     <b> <h3>Calculating mean:</h3> </b>
 	<div style="border:medium solid #333333;padding:1%">
-	mean = &sum;(a[i]/100) | 0 <=i< 100
+	mean = sigma (a[i]/100) | 0 <=i< 100
 	</div>
   </div>
   <div class="column" style="float:right">
     <b> <h3>Matrix multiplication:</h3> </b>
 	<div style="border:medium solid #333333;padding:1%">
-	&forall;(i) | 0 <= i < 600 {<br>
-    &emsp; &forall;(j) | 0 <= j <= 800 {<br>
-        &emsp; &emsp; &emsp; c[i][j] = &sum;(a[i][k] * b[k][j]) | 0<= k <=200<br>
+	forall (i) | 0 <= i <= 600 {<br>
+    &emsp; forall (j) | 0 <= j <= 800 {<br>
+        &emsp; &emsp; &emsp; c[i][j] = sigma (a[i][k] * b[k][j]) | 0<= k <=200<br>
     	&emsp; &emsp; }<br>
 	}<br>
 	</div>
