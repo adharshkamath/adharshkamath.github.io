@@ -17,7 +17,7 @@ googleAnalytics = "UA-167549289-5"
 	subtitle = ""
 	disableDisqusTypes = ["page"]
 	featherIconsCDN = true
-	mode = "auto"
+	mode = "light"
 	customJS = ["https://code.jquery.com/jquery-3.4.1.js"]
 	favicon = "favicon.ico"
 
