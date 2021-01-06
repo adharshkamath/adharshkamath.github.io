@@ -35,7 +35,10 @@ tags: [OpenMP, Compiler, DSL]
   }
 }
 </style>
-Read more about the syntax and the expected output of the project [here](/projects/mathy-compiler).
+Read more about the syntax and the expected output of the project [here](posts/mathy-compiler).
+
+Note: The output will have additional functions that are useful  to measure the time taken. The code for the equations/statements you specify will be put in a function called `kernel` which will be called from the main function.
+
 <div>
 Useful symbols:
 <table style="margin-bottom:2%;margin-top:1%">
@@ -76,6 +79,7 @@ Useful symbols:
 	}<br>
 	</div>
 </div>
+</div>
 
 <script type="text/javascript">
 $( "#codeForm" ).submit(function( event ) {
@@ -97,3 +101,5 @@ function textAreaAdjust(element) {
 </script>
 
 <br>
+
+Please [raise an issue](https://github.com/adharshkamath/Mathy-Compiler/issues) on GitHub if you find any bugs.

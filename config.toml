@@ -8,6 +8,8 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 summaryLength = 30
 
+googleAnalytics = "UA-167549289-5"
+
 [markup.goldmark.renderer]
 	unsafe= true
 
