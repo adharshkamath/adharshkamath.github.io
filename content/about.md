@@ -6,10 +6,12 @@ type: "about"
 
 Hi there! My name is Adharsh and I'm an undergraduate at [NITK, India](https://nitk.ac.in).
 
-This is where I occasionally post [articles](/posts) about Programming Languages, Parallel programming and a few other topics.
+This is where I occasionally post [articles](/posts) about Programming Languages, Compilers, Parallel programming and a few other topics.
 
-I also maintain a list of [projects](/projects) I've worked on/I'm planning to work on.
+You can find all my projects on my [GitHub profile](https://github.com/adharshkamath/).
 
-[Reach out](mailto:adharshkamathr@gmail.com) to me if you find any errors in my posts, or if you wanna discuss my projects/posts.
+I have also started maintaining a list of [projects](/projects) I've worked on/I'm planning to work on. The list is still under construction.
+
+[Reach out](mailto:adharshkamathr@gmail.com) to me if you find any errors in my posts, or if you want to discuss my projects/posts.
 
 This is me around the internet :
