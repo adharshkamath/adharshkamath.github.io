@@ -58,7 +58,7 @@ Useful symbols:
   </div>
 </div>
 
-### Some Examples:
+### Examples:
 
 (Paste these in the input box above and get the output)
 
@@ -101,5 +101,8 @@ function textAreaAdjust(element) {
 </script>
 
 <br>
+
+You can find more examples of some real equations [here](https://github.com/adharshkamath/Mathy-Compiler/tree/master/benchmark/source).
+
 
 Please [raise an issue](https://github.com/adharshkamath/Mathy-Compiler/issues) on GitHub if you find any bugs.
