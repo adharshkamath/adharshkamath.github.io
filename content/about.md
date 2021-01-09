@@ -14,4 +14,3 @@ I have also started maintaining a list of [projects](/projects) I've worked on/I
 
 [Reach out](mailto:adharshkamathr@gmail.com) to me if you find any errors in my posts, or if you want to discuss my projects/posts.
 
-This is me around the internet :

@@ -24,6 +24,29 @@ This is where I occasionally post articles about Programming Languages, Compiler
 	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 </head>
 
+<style type="text/css">
+	* {
+		  box-sizing: border-box;
+	}
+
+	.column {
+		float: left;
+		width: 50%;
+		padding: 10px;
+	}
+
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	@media screen and (max-width: 600px) {
+		.column {
+			width: 100%;
+		}
+	}
+</style>
 <body>
 	<div class="container wrapper post">
 		<div class="header">
@@ -75,18 +98,23 @@ This is where I occasionally post articles about Programming Languages, Compiler
 <p>You can find all my projects on my <a href="https://github.com/adharshkamath/">GitHub profile</a>.</p>
 <p>I have also started maintaining a list of <a href="/projects">projects</a> I&rsquo;ve worked on/I&rsquo;m planning to work on. The list is still under construction.</p>
 <p><a href="mailto:adharshkamathr@gmail.com">Reach out</a> to me if you find any errors in my posts, or if you want to discuss my projects/posts.</p>
-<p>This is me around the internet :</p>
 
-			<nav class="nav social">
+		<div class="row">
+    			<div class="column">
+					This is me around the internet :
+				<nav class="nav social">
 				<ul class="flat"><li style="margin: 10px 5px;"><a href="https://github.com/adharshkamath" title="Github"><i data-feather="github"></i></a> </li><li style="margin: 10px 5px;"><a href="https://twitter.com/adharshkamath" title="Twitter"><i data-feather="twitter"></i></a> </li><li style="margin: 10px 5px;"><a href="https://linkedin.com/in/adharshkamath" title="LinkedIn"><i data-feather="linkedin"></i></a> </li><li style="margin: 10px 5px;"><a href="https://instagram.com/adharshkamath" title="Instagram"><i data-feather="instagram"></i></a> </li></ul>
 			</nav>
 		</div>
-
+		<div class="column">
+		<span>My currently-reading shelf:</span><br/>
+		<a href="https://www.goodreads.com/review/list/124387293?shelf=currently-reading" title="Adharsh Kamath's book recommendations, liked quotes, book clubs, book trivia, book lists (currently-reading shelf)", rel="nofollow">
+		  <img border="0" alt="Adharsh Kamath's book recommendations, liked quotes, book clubs, book trivia, book lists (currently-reading shelf)" src="https://www.goodreads.com/images/badge/badge1.jpg" style="display:inline;">
+	  </a>
 	</div>
-	<div id="overlay">
-		<div class="cv-spinner">
-			<span class="spinner"></span>
+	</div>
 		</div>
+
 	</div>
 	<div class="footer wrapper">
 	<nav class="nav">
