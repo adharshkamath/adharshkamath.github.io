@@ -12,5 +12,5 @@ You can find all my projects on my [GitHub profile](https://github.com/adharshka
 
 I have also started maintaining a list of [projects](/projects) I've worked on/I'm planning to work on. The list is still under construction.
 
-[Reach out](mailto:adharshkamathr@gmail.com) to me if you find any errors in my posts, or if you want to discuss my projects/posts.
+[Reach out](mailto:adharsh.kamath.r+functionalcuriosity@gmail.com) to me if you find any errors in my posts, or if you want to discuss my projects/posts.
 
