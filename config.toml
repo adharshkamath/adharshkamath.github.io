@@ -14,7 +14,6 @@ googleAnalytics = "UA-167549289-5"
 	unsafe= true
 
 [params]
-	subtitle = ""
 	disableDisqusTypes = ["page"]
 	featherIconsCDN = true
 	mode = "light"
