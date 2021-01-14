@@ -10,7 +10,7 @@ This is where I occasionally post [articles](/posts) about Programming Languages
 
 You can find all my projects on my [GitHub profile](https://github.com/adharshkamath/).
 
-I have also started maintaining a list of [projects](/projects) I've worked on/I'm planning to work on. The list is still under construction.
+I have also started maintaining a list of [projects](/tags/project/) I've worked on/I'm planning to work on. The list is still under construction.
 
 [Reach out](mailto:adharshkamathr@gmail.com) to me if you find any errors in my posts, or if you want to discuss my projects/posts.
 

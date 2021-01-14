@@ -2,7 +2,7 @@
 title: Mathy Compiler
 description: 'The Mathy Compiler project, supported syntax, and much more!'
 date: 2020-12-09T06:43:38.000Z
-tags: [OpenMP, Compiler, DSL, Programming Language]
+tags: [OpenMP, Compiler, DSL, Programming Language, Project]
 ---
 
 The code for this project can be found in [this](https://github.com/adharshkamath/Mathy-Compiler) GitHub repository. This project was done under the guidance of [Dr. Rupesh Nasre](https://www.cse.iitm.ac.in/~rupesh/).
