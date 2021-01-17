@@ -2,6 +2,8 @@ baseURL = "https://adharshkamath.github.io/"
 languageCode = "en-us"
 title = "Functional Curiosity"
 paginate = 5
+enableRobotsTXT = true
+canonifyURLs = true
 
 pygmentsstyle = "vs"
 pygmentscodefences = true
@@ -13,12 +15,18 @@ googleAnalytics = "UA-167549289-5"
 [markup.goldmark.renderer]
 	unsafe= true
 
+[permalinks]
+    post = "/posts/:title/"
+
 [params]
 	disableDisqusTypes = ["page"]
 	featherIconsCDN = true
 	mode = "light"
 	customJS = ["https://code.jquery.com/jquery-3.4.1.js"]
 	favicon = "/favicon.ico"
+	description = "This is Adharsh's personal website where he writes articles about Programming languages, Parallel and distributed computing, and pretty much anything on earth that's interesting"
+  	images = ["apple-touch-icon.png"]
+  	title = "Functional Curiosity"
 
 [[menu.main]]
 name = "Home"
@@ -67,3 +75,6 @@ url = "https://instagram.com/adharshkamath"
 
 [taxonomies]
    tag = "tags"
+
+[author] 
+	adharshkamath = "Adharsh Kamath"
