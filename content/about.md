@@ -4,7 +4,7 @@ date: 2020-12-05T21:37:58+05:30
 type: "about"
 ---
 
-Hi there! My name is Adharsh and I'm an undergraduate at [NITK, India](https://nitk.ac.in).
+Hi there! I'm Adharsh Kamath. I'm an undergraduate at [NITK, India](https://nitk.ac.in).
 
 This is where I occasionally post [articles](/posts) about Programming Languages, Compilers, Parallel programming and a few other topics.
 
