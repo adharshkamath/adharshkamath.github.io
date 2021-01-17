@@ -4,7 +4,7 @@ title = "Functional Curiosity"
 paginate = 5
 enableRobotsTXT = true
 canonifyURLs = true
-
+DefaultContentLanguage = "en"
 pygmentsstyle = "vs"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
