@@ -14,8 +14,8 @@
 	{{- end -}}
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="{{ .Params.description }}" />
-	<meta itemprop="description" content="{{ .Params.description }}" />
+	<meta name="description" content="This is the personal website of Adharsh Kamath where he writes articles about Programming languages, Parallel and distributed computing, and pretty much anything on earth that's interesting." />
+	<meta itemprop="description" content="This is the personal website of Adharsh Kamath where he writes articles about Programming languages, Parallel and distributed computing, and pretty much anything on earth that's interesting." />
 	{{ with .OutputFormats.Get "rss" -}}
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
