@@ -24,7 +24,7 @@ googleAnalytics = "UA-167549289-5"
 	mode = "light"
 	customJS = ["https://code.jquery.com/jquery-3.5.1.min.js"]
 	favicon = "/favicon.ico"
-	description = "This is Adharsh's personal website where he writes articles about Programming languages, Parallel and distributed computing, and pretty much anything on earth that's interesting"
+	description = "This is the personal website of Adharsh Kamath where he writes articles about Programming languages, Parallel and distributed computing, and pretty much anything on earth that's interesting"
   	images = ["apple-touch-icon.png"]
   	title = "Functional Curiosity"
 
