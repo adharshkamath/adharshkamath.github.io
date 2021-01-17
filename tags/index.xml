@@ -6,16 +6,14 @@
     <description>Recent content in Tags on Functional Curiosity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Dec 2020 06:43:38 +0000</lastBuildDate>
-    
-	<atom:link href="https://adharshkamath.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <managingEditor>adharshkamathr@gmail.com (Adharsh Kamath)</managingEditor>
+    <webMaster>adharshkamathr@gmail.com (Adharsh Kamath)</webMaster>
+    <lastBuildDate>Wed, 09 Dec 2020 06:43:38 +0000</lastBuildDate><atom:link href="https://adharshkamath.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Compiler</title>
       <link>https://adharshkamath.github.io/tags/compiler/</link>
       <pubDate>Wed, 09 Dec 2020 06:43:38 +0000</pubDate>
-      
+      <author>adharshkamathr@gmail.com (Adharsh Kamath)</author>
       <guid>https://adharshkamath.github.io/tags/compiler/</guid>
       <description></description>
     </item>
@@ -24,7 +22,7 @@
       <title>DSL</title>
       <link>https://adharshkamath.github.io/tags/dsl/</link>
       <pubDate>Wed, 09 Dec 2020 06:43:38 +0000</pubDate>
-      
+      <author>adharshkamathr@gmail.com (Adharsh Kamath)</author>
       <guid>https://adharshkamath.github.io/tags/dsl/</guid>
       <description></description>
     </item>
@@ -33,7 +31,7 @@
       <title>OpenMP</title>
       <link>https://adharshkamath.github.io/tags/openmp/</link>
       <pubDate>Wed, 09 Dec 2020 06:43:38 +0000</pubDate>
-      
+      <author>adharshkamathr@gmail.com (Adharsh Kamath)</author>
       <guid>https://adharshkamath.github.io/tags/openmp/</guid>
       <description></description>
     </item>
@@ -42,7 +40,7 @@
       <title>Programming Language</title>
       <link>https://adharshkamath.github.io/tags/programming-language/</link>
       <pubDate>Wed, 09 Dec 2020 06:43:38 +0000</pubDate>
-      
+      <author>adharshkamathr@gmail.com (Adharsh Kamath)</author>
       <guid>https://adharshkamath.github.io/tags/programming-language/</guid>
       <description></description>
     </item>
@@ -51,7 +49,7 @@
       <title>Project</title>
       <link>https://adharshkamath.github.io/tags/project/</link>
       <pubDate>Wed, 09 Dec 2020 06:43:38 +0000</pubDate>
-      
+      <author>adharshkamathr@gmail.com (Adharsh Kamath)</author>
       <guid>https://adharshkamath.github.io/tags/project/</guid>
       <description></description>
     </item>

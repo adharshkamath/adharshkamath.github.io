@@ -6,49 +6,43 @@
     <description>Recent content on Functional Curiosity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Dec 2020 21:37:58 +0530</lastBuildDate>
-    
-	<atom:link href="https://adharshkamath.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <managingEditor>adharshkamathr@gmail.com (Adharsh Kamath)</managingEditor>
+    <webMaster>adharshkamathr@gmail.com (Adharsh Kamath)</webMaster>
+    <lastBuildDate>Sat, 05 Dec 2020 21:37:58 +0530</lastBuildDate><atom:link href="https://adharshkamath.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mathy Compiler</title>
       <link>https://adharshkamath.github.io/posts/mathy-compiler/</link>
       <pubDate>Wed, 09 Dec 2020 06:43:38 +0000</pubDate>
-      
+      <author>adharshkamathr@gmail.com (Adharsh Kamath)</author>
       <guid>https://adharshkamath.github.io/posts/mathy-compiler/</guid>
-      <description>The code for this project can be found in this GitHub repository. This project was done under the guidance of Dr. Rupesh Nasre.
-Some features of the language:
- Every statement in this language is terminated with a newline.</description>
+      <description>The Mathy Compiler project, supported syntax, and much more!</description>
     </item>
     
     <item>
       <title>Mathy Compiler Demo</title>
       <link>https://adharshkamath.github.io/posts/mathy-compiler-demo/</link>
       <pubDate>Mon, 07 Dec 2020 06:43:38 +0000</pubDate>
-      
+      <author>adharshkamathr@gmail.com (Adharsh Kamath)</author>
       <guid>https://adharshkamath.github.io/posts/mathy-compiler-demo/</guid>
-      <description>* { box-sizing: border-box; } .wrapper { max-width: 1200px; } .column { float: left; width: 45%; padding: 10px; } .row:after { content: &#34;&#34;; display: table; clear: both; } @media screen and (max-width: 600px) { .</description>
+      <description>Try out the Mathy Compiler with a web interface!</description>
     </item>
     
     <item>
       <title>About</title>
       <link>https://adharshkamath.github.io/about/</link>
       <pubDate>Sat, 05 Dec 2020 21:37:58 +0530</pubDate>
-      
+      <author>adharshkamathr@gmail.com (Adharsh Kamath)</author>
       <guid>https://adharshkamath.github.io/about/</guid>
-      <description>Hi there! My name is Adharsh and I&amp;rsquo;m an undergraduate at NITK, India.
-This is where I occasionally post articles about Programming Languages, Compilers, Parallel programming and a few other topics.</description>
+      <description></description>
     </item>
     
     <item>
       <title>Whoops! Page not found</title>
       <link>https://adharshkamath.github.io/404.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>adharshkamathr@gmail.com (Adharsh Kamath)</author>
       <guid>https://adharshkamath.github.io/404.html</guid>
-      <description>That page can&amp;rsquo;t be found.
-My latest posts and projects are on the homepage.</description>
+      <description></description>
     </item>
     
   </channel>

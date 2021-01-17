@@ -77,4 +77,5 @@ url = "https://instagram.com/adharshkamath"
    tag = "tags"
 
 [author] 
-	adharshkamath = "Adharsh Kamath"
+	name = "Adharsh Kamath"
+	email = "adharshkamathr@gmail.com"

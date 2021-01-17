@@ -6,29 +6,25 @@
     <description>Recent content in Posts on Functional Curiosity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Dec 2020 06:43:38 +0000</lastBuildDate>
-    
-	<atom:link href="https://adharshkamath.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <managingEditor>adharshkamathr@gmail.com (Adharsh Kamath)</managingEditor>
+    <webMaster>adharshkamathr@gmail.com (Adharsh Kamath)</webMaster>
+    <lastBuildDate>Wed, 09 Dec 2020 06:43:38 +0000</lastBuildDate><atom:link href="https://adharshkamath.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mathy Compiler</title>
       <link>https://adharshkamath.github.io/posts/mathy-compiler/</link>
       <pubDate>Wed, 09 Dec 2020 06:43:38 +0000</pubDate>
-      
+      <author>adharshkamathr@gmail.com (Adharsh Kamath)</author>
       <guid>https://adharshkamath.github.io/posts/mathy-compiler/</guid>
-      <description>The code for this project can be found in this GitHub repository. This project was done under the guidance of Dr. Rupesh Nasre.
-Some features of the language:
- Every statement in this language is terminated with a newline.</description>
+      <description>The Mathy Compiler project, supported syntax, and much more!</description>
     </item>
     
     <item>
       <title>Mathy Compiler Demo</title>
       <link>https://adharshkamath.github.io/posts/mathy-compiler-demo/</link>
       <pubDate>Mon, 07 Dec 2020 06:43:38 +0000</pubDate>
-      
+      <author>adharshkamathr@gmail.com (Adharsh Kamath)</author>
       <guid>https://adharshkamath.github.io/posts/mathy-compiler-demo/</guid>
-      <description>* { box-sizing: border-box; } .wrapper { max-width: 1200px; } .column { float: left; width: 45%; padding: 10px; } .row:after { content: &#34;&#34;; display: table; clear: both; } @media screen and (max-width: 600px) { .</description>
+      <description>Try out the Mathy Compiler with a web interface!</description>
     </item>
     
   </channel>
