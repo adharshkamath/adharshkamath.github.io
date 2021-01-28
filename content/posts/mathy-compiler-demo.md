@@ -37,7 +37,9 @@ tags: [OpenMP, Compiler, DSL]
 </style>
 Read more about the syntax and the expected output of the project [here](posts/mathy-compiler).
 
-Note: The output will have additional functions that are useful  to measure the time taken. The code for the equations/statements you specify will be put in a function called `kernel` which will be called from the main function.
+Note: The output will have additional functions that are useful to measure the time taken. The code for the equations/statements you specify will be put in a function called `kernel` which will be called from the main function. 
+
+The backend for this page is hosted on Heroku under a free tier so it's put to sleep if it's inactive for an extended duration. If you don't get any output even after 30-35s, please refersh the page and try once again.
 
 <div>
 Useful symbols:
