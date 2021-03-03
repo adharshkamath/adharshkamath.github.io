@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Control Flow on Functional Curiosity</title>
+    <link>https://adharshkamath.github.io/tags/control-flow/</link>
+    <description>Recent content in Control Flow on Functional Curiosity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>adharshkamathr@gmail.com (Adharsh Kamath)</managingEditor>
+    <webMaster>adharshkamathr@gmail.com (Adharsh Kamath)</webMaster>
+    <lastBuildDate>Wed, 09 Dec 2020 06:43:38 +0000</lastBuildDate><atom:link href="https://adharshkamath.github.io/tags/control-flow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Delimited Continuations</title>
+      <link>https://adharshkamath.github.io/posts/delimited-continuations/</link>
+      <pubDate>Wed, 09 Dec 2020 06:43:38 +0000</pubDate>
+      <author>adharshkamathr@gmail.com (Adharsh Kamath)</author>
+      <guid>https://adharshkamath.github.io/posts/delimited-continuations/</guid>
+      <description>What they are and why they&#39;re so cool!</description>
+    </item>
+    
+  </channel>
+</rss>

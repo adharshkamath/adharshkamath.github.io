@@ -8,7 +8,27 @@
   </url>
   
   <url>
+    <loc>https://adharshkamath.github.io/tags/continuations/</loc>
+    <lastmod>2020-12-09T06:43:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adharshkamath.github.io/tags/control-flow/</loc>
+    <lastmod>2020-12-09T06:43:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adharshkamath.github.io/posts/delimited-continuations/</loc>
+    <lastmod>2020-12-09T06:43:38+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://adharshkamath.github.io/tags/dsl/</loc>
+    <lastmod>2020-12-09T06:43:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adharshkamath.github.io/tags/effects/</loc>
     <lastmod>2020-12-09T06:43:38+00:00</lastmod>
   </url>
   
@@ -29,6 +49,11 @@
   
   <url>
     <loc>https://adharshkamath.github.io/tags/programming-language/</loc>
+    <lastmod>2020-12-09T06:43:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adharshkamath.github.io/tags/programming-languages/</loc>
     <lastmod>2020-12-09T06:43:38+00:00</lastmod>
   </url>
   
